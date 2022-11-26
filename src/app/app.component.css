@@ -1,0 +1,23 @@
+h1 {
+	@apply text-red-500
+		text-3xl
+		text-center
+		my-4;
+}
+
+nav {
+	@apply bg-gray-400
+		grid
+		text-center
+		py-2;
+}
+
+nav a {
+	@apply py-1
+		mx-20
+		text-white
+		hover:text-red-600
+		ease-in-out
+		transition
+		delay-150;
+}

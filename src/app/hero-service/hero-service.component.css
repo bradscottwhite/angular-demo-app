@@ -1,0 +1,6 @@
+input {
+	@apply text-gray-500
+		px-2
+		py-1
+		rounded-xl;
+}

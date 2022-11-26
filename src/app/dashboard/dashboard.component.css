@@ -1,0 +1,25 @@
+h2 {
+	@apply text-xl
+		text-red-500
+		text-center
+		py-2;
+}
+
+div {
+	@apply text-center
+		bg-gray-300
+		py-4;
+}
+
+a {
+	@apply text-lg
+		text-white
+		hover:text-red-300
+		ease-in-out
+		transition
+		delay-150;
+}
+
+span.badge {
+	@apply text-red-500;
+}
